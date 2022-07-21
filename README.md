@@ -5,4 +5,4 @@
 3. `mkdir build && cd build`
 4. `cmake ..`
 5. `make`
-
+6. `./mycc`
