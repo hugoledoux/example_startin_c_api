@@ -1,13 +1,12 @@
 #include <iostream>
 #include <fstream>
 
-#include "DT.h"
+#include "Triangulation.h"
 
-using namespace startin;
 
 int main()
 {
-  DT mydt = DT();
+  Triangulation mydt = Triangulation();
   srand (time(NULL));
   for (int i = 0; i < 50; ++i) {
     double x = rand() % 100;

@@ -1,11 +1,11 @@
 #include <vector>
 #include "startin.h"
 
-class DT
+class Triangulation
 {
 public:
-  DT();
-  ~DT();
+  Triangulation();
+  ~Triangulation();
 
   void                   printme();
   std::vector<uintptr_t> adjacent_vertices_to_vertex(uintptr_t vi); 
